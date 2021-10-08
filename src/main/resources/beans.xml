@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="sa.com.stc.demo1.adapter.inbound.Controller1" id="controller1"/>
+    <bean class="sa.com.stc.demo1.service.Service1" id="service1"/>
+    <bean class="sa.com.stc.demo1.adapter.outbound.Repository1" id="repository1"/>
+</beans>
